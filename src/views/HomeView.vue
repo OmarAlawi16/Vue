@@ -9,7 +9,6 @@ function addTodo() {
 
 <template>
   <main>
-    hem
     <input type="text" v-model="todoName" @keyup.enter="addTodo" />
     <button @click="addTodo">Lägg till todo</button>
   </main>
