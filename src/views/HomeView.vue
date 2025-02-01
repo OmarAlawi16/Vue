@@ -1,13 +1,13 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 import SingleTodo from '@/components/SingleTodo.vue';
-
-const todos = ref<string[]>([]);
-
+import { useTodosStore } from '@/stores/todos.ts';
+import { storeToRefs } from 'pinia';
+const todoStore = useTodosStore();
+const { todos } = storeToRefs(todoStore);
 const todoName = ref('');
-
 function addTodo() {
-  todos.value.push(todoName.value);
+  todoStore.addNewTodo(todoName.value, false);
 }
 </script>
 
@@ -16,12 +16,13 @@ function addTodo() {
     <div class="my-8">
       <template v-if="todos.length > 0">
         <div v-for="(todo, index) in todos" :key="index">
-          <SingleTodo :todo-text="todo" />
+          <SingleTodo :todo-text="todo.text" :complete="todo.complete" :id="todo.id" />
         </div>
-      </template> 
-      <p v-else>You are done with all tasks</p>
+      </template>
+
+      <p v-if="todos.length === 0">Du är klar med alla uppgifter!</p>
     </div>
     <input type="text" v-model="todoName" @keyup.enter="addTodo" />
-    <button @click="addTodo">add a todo</button>
+    <button @click="addTodo">Lägg till todo</button>
   </main>
 </template>
