@@ -5,7 +5,7 @@ import vueDevTools from 'vite-plugin-vue-devtools';
 
 
 export default defineConfig({
-  base: '/fed24d-arbetsmetodik-inl-2-vue-OmarAlawi16/',
+  base: '/OmarAlawi16/Vue/',
   plugins: [
     vue(),
     vueDevTools(),
