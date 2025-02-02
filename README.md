@@ -16,13 +16,7 @@ This project focuses on Vue's core features and uses **Pinia** for state managem
 
 ## 📌 Technologies Used
 
-![Vue](https://img.shields.io/badge/Vue-3.5.0-42b883?style=for-the-badge&logo=vue.js&logoColor=white)  
-![Vite](https://img.shields.io/badge/Vite-6.0.11-646cff?style=for-the-badge&logo=vite&logoColor=white)  
-![Pinia](https://img.shields.io/badge/Pinia-2.3.0-fada5e?style=for-the-badge&logo=pinia&logoColor=black)  
-![TypeScript](https://img.shields.io/badge/TypeScript-5.6.3-3178c6?style=for-the-badge&logo=typescript&logoColor=white)  
-![ESLint](https://img.shields.io/badge/ESLint-9.14.0-4b32c3?style=for-the-badge&logo=eslint&logoColor=white)  
-![Prettier](https://img.shields.io/badge/Prettier-3.3.3-f7b93e?style=for-the-badge&logo=prettier&logoColor=black)  
-![SCSS](https://img.shields.io/badge/SCSS-1.83.4-cd6799?style=for-the-badge&logo=sass&logoColor=white)
+![Vue](https://img.shields.io/badge/Vue-3.5.0-42b883?style=for-the-badge&logo=vue.js&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-6.0.11-646cff?style=for-the-badge&logo=vite&logoColor=white)  ![Pinia](https://img.shields.io/badge/Pinia-2.3.0-fada5e?style=for-the-badge&logo=pinia&logoColor=black)  ![TypeScript](https://img.shields.io/badge/TypeScript-5.6.3-3178c6?style=for-the-badge&logo=typescript&logoColor=white)  ![ESLint](https://img.shields.io/badge/ESLint-9.14.0-4b32c3?style=for-the-badge&logo=eslint&logoColor=white)  ![Prettier](https://img.shields.io/badge/Prettier-3.3.3-f7b93e?style=for-the-badge&logo=prettier&logoColor=black) ![SCSS](https://img.shields.io/badge/SCSS-1.83.4-cd6799?style=for-the-badge&logo=sass&logoColor=white)
 
 ---
 
