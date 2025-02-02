@@ -5,7 +5,7 @@ import vueDevTools from 'vite-plugin-vue-devtools';
 
 
 export default defineConfig({
-  base: '/OmarAlawi16/Vue/',
+  base: '/Vue/',
   plugins: [
     vue(),
     vueDevTools(),
